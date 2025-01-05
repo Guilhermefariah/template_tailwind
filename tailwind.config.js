@@ -12,6 +12,9 @@ export default {
         'text': '#252b42',
         'secondary-text': '#374754',
         'dark-background': '#252b42',
+      },
+      screens: {
+        'xs': '378px',
       }
     },
   },
