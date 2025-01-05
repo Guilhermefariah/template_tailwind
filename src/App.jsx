@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1 className='text-blue-500'>Template Tailwind</h1>
+      <h1 className='text-blue-500 font-graphik'>Template </h1>
     </>
   )
 }
