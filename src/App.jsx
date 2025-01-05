@@ -1,15 +1,15 @@
-function App() {
+import { Button } from "./components/Button/Button";
+
+export default function App() {
   return (
     <>
-      <div>
-        <div className="w-full flex gap-3 items-center flex-col lg:flex-row justify-center">
-          <div className="bg-blue-700 w-32 h-32 md:w-64 md:h-64 xs:bg-green-500"></div>
-          <div className="bg-blue-700 w-32 h-32 md:w-64 md:h-64 xl:bg-red-500"></div>
-          <div className="bg-blue-700 w-32 h-32 md:w-64 md:h-64"></div>
-        </div>
-      </div>
+      <main className="bg-dark-background">
+        <h1 className="text-dark-background">Template Tailwind</h1>
+        <Button>Primary Background</Button>
+        <Button variant="secondary">Secondary Background</Button>
+        <Button isBold>Bold Text with Primary Background</Button>
+        <Button isBold variant="secondary">Bold Text With Secondary Background</Button>
+      </main>
     </>
   );
 }
-
-export default App;
