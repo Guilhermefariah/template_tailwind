@@ -1,8 +1,52 @@
-# React + Vite
+**Template Tailwind**
+=======================
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um template básico para projetos React com Tailwind CSS e Vite.
 
-Currently, two official plugins are available:
+**Instalação**
+---------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para instalar as dependências do projeto, execute o seguinte comando:
+
+```bash
+npm install
+```
+
+**Estrutura do Projeto**
+-------------------------
+
+O projeto está estruturado da seguinte forma:
+
+* `src`: Pasta que contém os arquivos do projeto.
+	+ `App.jsx`: Arquivo principal do projeto.
+	+ `components`: Pasta que contém os componentes do projeto.
+		- `Button`: Componente de botão.
+		- `CalendarFeature`: Componente de calendário.
+		- `Heading`: Componente de título.
+		- `Testimonials`: Componente de depoimentos.
+* `public`: Pasta que contém os arquivos estáticos do projeto.
+	+ `index.html`: Arquivo HTML principal do projeto.
+* `styles`: Pasta que contém os arquivos de estilo do projeto.
+	+ `App.css`: Arquivo CSS principal do projeto.
+* `tailwind.config.js`: Arquivo de configuração do Tailwind CSS.
+* `vite.config.js`: Arquivo de configuração do Vite.
+
+**Comandos**
+-------------
+
+* `npm run dev`: Inicia o servidor de desenvolvimento.
+* `npm run build`: Gera a build do projeto.
+* `npm run lint`: Executa o linter do projeto.
+
+**Tecnologias Utilizadas**
+---------------------------
+
+* React
+* Tailwind CSS
+* Vite
+* ESLint
+
+**Licença**
+------------
+
+Este projeto é licenciado sob a licença MIT.
